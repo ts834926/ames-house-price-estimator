@@ -1,0 +1,28 @@
+{
+  "best_model": "Random Forest",
+  "selection_metric": "RMSE",
+  "holdout_metrics": {
+    "MAE": 18125.978919322464,
+    "MSE": 847826963.924281,
+    "RMSE": 29117.46836392685,
+    "R2": 0.8894666353133894
+  },
+  "train_rows": 1460,
+  "holdout_rows": 292,
+  "features": [
+    "OverallQual",
+    "GrLivArea",
+    "GarageCars",
+    "TotalBsmtSF",
+    "YearBuilt",
+    "FullBath",
+    "BedroomAbvGr",
+    "LotArea",
+    "Fireplaces",
+    "KitchenQual",
+    "Neighborhood",
+    "ExterQual",
+    "BsmtQual",
+    "CentralAir"
+  ]
+}
