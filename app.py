@@ -99,7 +99,7 @@ st.write(
     "The notebook held back 20% of the sales while comparing models. "
     "These scores come from those homes, which the models did not train on."
 )
-first, second, third = st.columns(3)
+first, second, third = st.columns([1.5, 1, 0.8])
 first.metric("Selected model", metrics["best_model"])
 second.metric("Typical error (MAE)", f"${metrics['holdout_metrics']['MAE']:,.0f}")
 third.metric("R²", f"{metrics['holdout_metrics']['R2']:.3f}")
