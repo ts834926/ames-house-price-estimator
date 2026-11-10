@@ -2,6 +2,10 @@
 
 A learning project that explores the Ames, Iowa house-sales data, compares five regression models, and provides a Streamlit form for estimating a home's sale price. The app uses a saved scikit-learn pipeline trained on the labeled sales data.
 
+## Live app
+
+Try the deployed Streamlit app: [Ames House Price Estimator](https://ames-house-price-estimator.streamlit.app/).
+
 ## Project structure
 
 ```text
